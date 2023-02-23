@@ -206,4 +206,75 @@ label {
 
 /* ===== ADD IN ALL STYLES HERE -- INCLUDING FONTS + CSS FOR MOBILE SCREEN ====== */
 
+h1{
+  text-align: center;
+  font-size: 1.50em;
+  font-family: 'Merriweather', serif;
+  display: block;
+  background-color: DarkSlateGrey;
+  color:white;
+  padding:25px;
+  width:100%;
+  resize: vertical;
+}
+
+p{
+  text-align: center;
+  font-size: 0.75em;
+  font-family: 'Merriweather', serif; 
+  background-color: LightSlateGray;
+  color: white;
+  padding:15px;
+  width:100%;
+  resize: vertical;
+  
+}
+
+#input-email{
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  padding: 20px 20px;
+  border:none;
+  text-align: center;
+  background-color: lightgrey;
+  resize: vertical;
+}
+
+#input-age-verification{
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  padding: 20px 20px;
+  border:none;
+  text-align: center;
+  background-color: lightgrey;
+  resize: vertical;
+}
+
+#input-submit{
+  font-family: 'Tilt Neon', cursive;
+  width:100%;
+  text-align: center;
+  background-color: grey;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  resize: vertical;
+}
+
+input[type=submit]:hover {
+  background-color: lightgrey;
+}
+
+label {
+  padding: 12px 12px 12px 12px;
+  display: inline-block;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
 /* ===== STATE STYLES ======= */
