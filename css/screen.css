@@ -214,8 +214,8 @@ h1{
   display: block;
   background-color: DarkSlateGrey;
   color:white;
-  padding:25px;
-  width:100%;
+  padding: 0.70em;
+  width:97.5%;
   resize: vertical;
 }
 
@@ -225,42 +225,42 @@ p{
   font-family: 'Merriweather', serif; 
   background-color: LightSlateGray;
   color: white;
-  padding:15px;
-  width:100%;
+  padding: 0.78em;
+  width:99%;
   resize: vertical;
   
 }
 
 #input-email{
   font-family: 'Open Sans', sans-serif;
-  width: 100%;
-  padding: 20px 20px;
+  width: 96%;
+  padding: 0.75em 1.25em;
   border:none;
   text-align: center;
   background-color: lightgrey;
   resize: vertical;
-  margin: 10px 0;
+  margin: 0.625em 0;
 }
 
 #input-age-verification{
   font-family: 'Open Sans', sans-serif;
-  width: 100%;
-  padding: 20px 20px;
+  width: 96%;
+  padding: 0.75em 1.25em;
   border:none;
   text-align: center;
   background-color: lightgrey;
   resize: vertical;
-  margin: 10px 0;
+  margin: 0.625em 0;
 }
 
 #input-submit{
   font-family: 'Tilt Neon', cursive;
-  width:100%;
-  margin: 10px 0;
+  width: 96%;
+  margin: 0.625em 0;
   text-align: center;
   background-color: grey;
   color: white;
-  padding: 12px 20px;
+  padding: 0.75em 1.25em;
   border: none;
   resize: vertical;
 }
@@ -272,11 +272,11 @@ input[type=submit]:hover {
 #content{
   border-radius: 5px;
   background-color: #f2f2f2;
-  padding: 20px;
+  padding: 0.65em;
 }
 
 label {
-  padding: 12px 12px 12px 12px;
+  padding: 0.75em 0.75em 0.75em 0.75em;
   display: inline-block;
 }
 
