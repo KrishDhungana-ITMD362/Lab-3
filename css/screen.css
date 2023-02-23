@@ -239,6 +239,7 @@ p{
   text-align: center;
   background-color: lightgrey;
   resize: vertical;
+  margin: 10px 0;
 }
 
 #input-age-verification{
@@ -249,11 +250,13 @@ p{
   text-align: center;
   background-color: lightgrey;
   resize: vertical;
+  margin: 10px 0;
 }
 
 #input-submit{
   font-family: 'Tilt Neon', cursive;
   width:100%;
+  margin: 10px 0;
   text-align: center;
   background-color: grey;
   color: white;
@@ -270,6 +273,7 @@ label {
   padding: 12px 12px 12px 12px;
   display: inline-block;
 }
+
 
 @media screen and (max-width: 600px) {
   .col-25, .col-75, input[type=submit] {
