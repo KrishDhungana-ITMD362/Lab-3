@@ -207,6 +207,7 @@ label {
 /* ===== ADD IN ALL STYLES HERE -- INCLUDING FONTS + CSS FOR MOBILE SCREEN ====== */
 
 h1{
+  margin: auto;
   text-align: center;
   font-size: 1.50em;
   font-family: 'Merriweather', serif;
